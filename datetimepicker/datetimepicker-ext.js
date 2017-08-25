@@ -25,7 +25,7 @@
                 self._timepicker = false;
                 self._closeOnDateSelect = true;
                 self._format = 'Y-m-d';
-                if(use){
+                if(self.use){
                     if ($self.data("type") == 'startDay') {
                         self.onClose = function (selectedDate) {
                             $('#endDay').datetimepicker({"minDate":selectedDate});
@@ -87,7 +87,8 @@
             var _obj = {
                 type: binding.value.type || 1,
                 mod: binding.value.mod || '',
-                step: binding.value.step
+                step: binding.value.step,
+                use: binding.value.use
             };
 
             if (_obj.needWrite != 1) {
