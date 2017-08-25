@@ -237,3 +237,7 @@ $(function () {
 ## CopyRight
 
 Create by capricorncd / 2017-06-11
+
+
+
+//懒得分类了 以后组件全扔这里了，烦=。=
